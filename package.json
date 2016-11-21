@@ -1,0 +1,21 @@
+{
+  "name": "Jopa",
+  "version": "1.0.0",
+  "description": "Test",
+  "private": "true",
+  "dependencies": {},
+  "main": "test_node.js",
+  "scripts": {
+    "start": "node test_node.js"
+  },
+  "engines": {
+      "node": "7.0.0",
+      "npm": "3.10.8"
+    },
+  "author": "Jopa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trendsGoogle/test/issues"
+  },
+  "homepage": "https://github.com/trendsGoogle/test"
+}
