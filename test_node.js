@@ -34,7 +34,7 @@ var server = http.createServer(function(req, res) {
         '<p>Server: </p>',
         '<script type="text/javascript"> trends.embed.renderWidget("US_cu_MK0gIFcBAABHDM_en", "fe_list_82505dde-cd2d-4895-9393-561cbd4c1ce6", {"guestPath":"https://trends.sandbox.google.com:443/trends/embed/"}); </script>',
         '<p>Server TempProd: </p>',
-        '<script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/02mjmr","geo":"US","time":"2015-01-01 2015-12-31"},{"keyword":"/m/0d06m5","geo":"US","time":"2015-01-01 2015-12-31"},{"keyword":"/m/0cqt90","geo":"US","time":"2015-01-01 2015-12-31"}],"category":0,"property":""}, {"exploreQuery":"q=%2Fm%2F02mjmr,%2Fm%2F0d06m5,%2Fm%2F0cqt90&date=2015-01-01%202015-12-31&geo=US"}); </script> ',
+        '<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/815_RC05/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderWidget("US_cu_MK0gIFcBAABHDM_en", "horserace_chart_9703ed2a-6522-4608-a99b-41bc6d0b2b23", {}); </script>',
         '</body>',
         '</html>'
       ].join(''));
