@@ -32,8 +32,8 @@ var server = http.createServer(function(req, res) {
         '<p>Server: </p>' +
         '</script> <script type="text/javascript"> trends.embed.renderWidget("US_cu_MK0gIFcBAABHDM_en", "fe_list_82505dde-cd2d-4895-9393-561cbd4c1ce6", {"guestPath":"https://trends.sandbox.google.com:443/trends/embed/"}); </script>'+
         '<p>Server: </p>' +
-        ' </body>'+
         '</script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/02y17j","geo":"","time":"all"},{"keyword":"/m/09gms","geo":"","time":"all"},{"keyword":"/m/012y1_","geo":"","time":"all"}],"category":0,"property":""}, {"exploreQuery":"q=%2Fm%2F02y17j,%2Fm%2F09gms,%2Fm%2F012y1_&date=all"}); </script> '+
+        ' </body>'+
         '</html>');
 });
 server.listen(process.env.PORT || 5000);
